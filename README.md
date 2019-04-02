@@ -1,6 +1,6 @@
 # CS 100 Programming Project
 
-> Winter 2019 // Trevor Gorman 862012653, Nicole Nguyen 862034393
+> Winter 2019 // Trevor Gorman 862012653
 
 ## Introduction
 This project will be a C++ language-based program called RShell. This will be designed as a bash terminal to print a command prompt, take in, and execute commands. It will read in commands and the connector from the user's input and utilize syscalls(execvp, fork, waitpid). It will be created with the Composite pattern as there is specific functionality for certain subclasses.The design would take the commands as operators and operands, executing them as they are evaluated. In addition, they will be executed with a left and right, with every character included.
@@ -99,35 +99,3 @@ int main() {
     return 0;
 }
 ```
-
-Research / Notes: 
-* Program seems to compile fine 
-* Output received when run:
-    - Parent: 16297
-    - Child: 0
-    - ls: echo: No such file or directory
-    - ls: mkdir: No such file or directory
-* Shows parent outputted before child
-* More to learn about these syscalls and perror
-
-## Development and Testing Roadmap
-
-Development Tasks
-* Create branches to work on specific parts of the program
-    - [Link to issue](https://github.com/cs100/assignment-cs100_trevor_nicole/issues/1)
-* Get the program to read in the line of commands with the format of argument list, connector, and command
-    * Get program to output command prompt: $ (Nicole)
-    * Find a way to parse through and extract the command (Nicole)
-    - [Linked](https://github.com/cs100/assignment-cs100_trevor_nicole/issues/2)
-* Execute using syscalls execvp, fork, and waitpid (Nicole and Trevor)
-    * Research and read up on it 
-    - [Linked](https://github.com/cs100/assignment-cs100_trevor_nicole/issues/3)
-* Put in unit tests to get functions to work like they should (Nicole and Trevor)
-    - [Linked](https://github.com/cs100/assignment-cs100_trevor_nicole/issues/4)
-* Depending on how we go about it, we may make use of Decorator as we learn from mistakes and see how we can continue building our commands so we can extend the functionality of the command tree (Trevor)
-    - [Linked](https://github.com/cs100/assignment-cs100_trevor_nicole/issues/5)
-* Get parser to deal with taking in parentheses (Nicole)
-    - [Linked](https://github.com/cs100/assignment-cs100_trevor_nicole/issues/6)
-* Deal with test functions and hard-coding (Trevor)
-    - [Linked](https://github.com/cs100/assignment-cs100_trevor_nicole/issues/7)
-
