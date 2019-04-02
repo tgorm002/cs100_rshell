@@ -1,0 +1,8 @@
+ls | more
+ls | less
+cat < names.txt | tr nicole | tee names2.txt | nicole > names3.txt
+ls | more || man
+ls | more && echo "hello there"
+cat CMakeLists.txt | sort -r
+echo hi && ls && ls | less
+exit

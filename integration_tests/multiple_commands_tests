@@ -1,0 +1,11 @@
+ls -a; echo hello && mkdir test
+echo world && rm -r test || git status
+echo bold && echo party && blend #blend is not a command
+mkdir A || ls -a; echo chex
+rm -rf A; ls; echo waheey
+touch unit_test.hpp || echo hey
+ls && rm unit_test.hpp && ls || mkdir
+touch remove.cpp && ls; rm remove.cpp
+echo && clear; echo please print this && echo "then print this!!! #_#"
+ls || exit
+exit

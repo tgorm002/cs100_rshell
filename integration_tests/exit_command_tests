@@ -1,0 +1,6 @@
+exit #basic
+exit #hello? #comment
+ls; exit # semicolon
+mkdir || exit # or
+echo hello world && exit #a and
+exit

@@ -1,0 +1,11 @@
+ls # -lR 
+ls -a; echo hello # && mkdir test
+echo world && ls #; git status
+echo "hi there are you okay" #test test test !!!
+echo bold # party blend 
+mkdir chexmix
+rm -rf chexmix #plz
+clear || git status #commented
+echo file && git status # q_q
+echo abcd#efg && (echo abcd# || echo exit) && echo "#donezo"
+exit

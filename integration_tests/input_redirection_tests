@@ -1,0 +1,7 @@
+wc < names.txt
+wc -l < names.txt || ls
+tail < CMakeLists.txt && ls #outputs last 10 lines
+head < CMakeLists.txt ; ls #outputs first 10 lines
+tail < names.txt || (ls)
+head < names.txt && echo "hi"
+exit

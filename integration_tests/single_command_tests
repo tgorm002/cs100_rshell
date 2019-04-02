@@ -1,0 +1,12 @@
+ls -a
+echo hello
+mkdir test
+echo "world" # && hello
+echo "bold party blend extra savory"
+git status;
+rm -rf test
+touch boldpartyblend.cpp # ls
+ls # -lR sdaf
+rm boldpartyblend.cpp
+ls -m
+exit

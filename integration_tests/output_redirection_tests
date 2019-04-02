@@ -1,0 +1,13 @@
+cat names.txt > names2.txt
+cat names.txt >> names3.txt
+cat names.txt > names2.txt
+cat names.txt >> names3.txt
+cat CMakeLists.txt > names2.txt
+cat CMakeLists.txt >> names3.txt
+echo append this please >> names2.txt
+ls >> files.txt
+echo no > files.txt
+echo i'm back >> files.txt
+echo bold party >> bold.txt && echo "blend" >> bold.txt
+echo chex mix > bolt.txt
+exit

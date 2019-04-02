@@ -1,0 +1,17 @@
+(echo b) && echo a
+(echo a && echo b)
+echo b && (echo a) || echo c
+(echo hi && ls) || echo b
+echo A && (echo b || echo c)
+echo c || (echo a && echo B)
+echo b && (echo h && echo c && echo d)
+(echo A && echo B) || (echo c && echo d)
+echo hi && (echo b || echo c && echo d)
+echo b && (echo h || echo c) && echo a
+(echo this && (echo should print || echo should not) || print)
+(echo round; echo 2) && echo starts now
+(echo a && echo c) ; (echo d || echo e)
+echo sup t || (echo hi && (echo c && echo d))
+echo a && (echo b && (echo c && echo d))
+((echo a && echo b) && echo c)
+exit

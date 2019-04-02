@@ -1,0 +1,13 @@
+test -e ../src/and.cpp
+test -f ../src/and.cpp
+test -d ../src
+test -e src/and.cpp || echo “path exists”
+test -e src/and.cpp && echo “path exists”
+ls && test -d src
+(echo hi) || test -d src/and.cpp
+(test -f src/and.cpp && man)
+test -f src/and.cpp && ls && echo "hi" && test -d src
+test -erasdf main.cpp
+ -e srcccccc/NICOLE.cpp 
+test -e srcccccc/NICOLE.CPP
+exit
